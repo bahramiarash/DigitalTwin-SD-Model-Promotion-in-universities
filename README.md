@@ -18,3 +18,12 @@ The model supports scenario analysis, research/education scoring, and policy sim
 
 ## 📂 Project Structure
 
+.
+├── app/
+│ ├── app.py # FastAPI backend
+│ ├── models/
+│ │ └── my_model.mdl # Vensim model
+│ └── static/
+│ └── index.html # Dashboard UI
+├── requirements.txt
+└── README.md
